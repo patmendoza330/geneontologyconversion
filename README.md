@@ -48,6 +48,8 @@ From above, you can see we have three terms (GO:0000001, GO:0000002, and GO:0000
 
 To do this, we will run a python script that will search through the file for particular breakpoints, then grab selected fields and store them in a new table. 
 
+Additionally, this revised file will be used to make a joins to the annotation file in my [data wrangling with tidyr and dplyr](https://github.com/patmendoza330/annotationwrangling) repository.
+
 # Background
 
 This original file is a gene ontology definition file downloaded from [http://geneontology.org/](http://geneontology.org/) in OBO format. The annotation file that this will be joined to is already in tabular format, so we need to run a simple script that will do the conversion needed. 
